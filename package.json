@@ -4,9 +4,9 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ daviddavo/ethereum-blocks",
-    "create-local": "graph create --node http://localhost:8020/ daviddavo/ethereum-blocks",
-    "remove-local": "graph remove --node http://localhost:8020/ daviddavo/ethereum-blocks",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ grasia/ethereum-blocks",
+    "create-local": "graph create --node http://localhost:8020/ grasia/ethereum-blocks",
+    "remove-local": "graph remove --node http://localhost:8020/ grasia/ethereum-blocks",
     "manifest-mainnet": "scripts/build-manifest.sh mainnet",
     "manifest-rinkeby": "scripts/build-manifest.sh rinkeby",
     "manifest-kovan": "scripts/build-manifest.sh kovan",
@@ -14,13 +14,13 @@
     "manifest-ropsten": "scripts/build-manifest.sh ropsten",
     "manifest-matic": "scripts/build-manifest.sh matic",
     "manifest-arbitrum": "scripts/build-manifest.sh arbitrum",
-    "deploy-local": "scripts/deploy.sh daviddavo mainnet",
-    "deploy-rinkeby": "scripts/deploy.sh daviddavo rinkeby",
-    "deploy-kovan": "scripts/deploy.sh daviddavo kovan",
-    "deploy-goerli": "scripts/deploy.sh daviddavo goerli",
-    "deploy-ropsten": "scripts/deploy.sh daviddavo ropsten",
-    "deploy-matic": "scripts/deploy.sh daviddavo matic",
-    "deploy-arbitrum": "scripts/deploy.sh daviddavo arbitrum"
+    "deploy-local": "scripts/deploy.sh grasia mainnet",
+    "deploy-rinkeby": "scripts/deploy.sh grasia rinkeby",
+    "deploy-kovan": "scripts/deploy.sh grasia kovan",
+    "deploy-goerli": "scripts/deploy.sh grasia goerli",
+    "deploy-ropsten": "scripts/deploy.sh grasia ropsten",
+    "deploy-matic": "scripts/deploy.sh grasia matic",
+    "deploy-arbitrum": "scripts/deploy.sh grasia arbitrum"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",

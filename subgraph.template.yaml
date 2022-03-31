@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Indexing all Ethereum Block data
-repository: https://github.com/blocklytics/ethereum-blocks
+repository: https://github.com/grasia/ethereum-blocks
 schema:
   file: ./schema.graphql
 dataSources:
